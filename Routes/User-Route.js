@@ -3,7 +3,7 @@ import { login, signup } from '../Controllers/auth.js';
 import { deleteUser, getAllUser, getUser, modifyUser, userStat } from '../Controllers/User-Controller.js';
 import { verifyTokenAndAdmin, verifyTokenAndAuthorization } from '../Controllers/verifyToken.js';
 const router = express.Router();
-
+// router for user registration
 router.post('/signup',signup);
 router.post('/login',login);
 router.put("/modify/:id",verifyTokenAndAuthorization,modifyUser);
