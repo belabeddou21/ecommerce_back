@@ -5,6 +5,7 @@ import { verifyTokenAndAdmin, verifyTokenAndAuthorization } from '../Controllers
 const router = express.Router();
 
 router.post('/signup',signup);
+// user login router 
 router.post('/login',login);
 router.put("/modify/:id",verifyTokenAndAuthorization,modifyUser);
 router.get('/stats',userStat);
