@@ -15,7 +15,7 @@ To run the code locally, you will need to have Node.js and MongoDB installed on 
 
 ## bash
 Copy code
-git clone https://github.com/your-username/online-store-backend.git
+git clone https://github.com/belabeddou21/ecommerce_back.git
 cd online-store-backend
 npm install
 npm start
